@@ -24,9 +24,9 @@ import com.example.newsapp.MockData
 import com.example.newsapp.components.BottomMenu
 import com.example.newsapp.models.TopNewsArticles
 import com.example.newsapp.network.NewsManager
+import com.example.newsapp.ui.screens.AboutUsScreen
 import com.example.newsapp.ui.screens.Categories
 import com.example.newsapp.ui.screens.DetailsScreen
-import com.example.newsapp.ui.screens.Sources
 import com.example.newsapp.ui.screens.TopNews
 
 @Composable
@@ -102,6 +102,6 @@ fun NavGraphBuilder.bottomNavigation(
     }
     composable(BottomMenuScreen.Sources.route)
     {
-        Sources()
+        AboutUsScreen()
     }
 }

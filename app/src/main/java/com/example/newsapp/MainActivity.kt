@@ -11,6 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.newsapp.ui.NewsApp
+import com.example.newsapp.ui.screens.NavigationApp
+import com.example.newsapp.ui.screens.SplashScreen
 import com.example.newsapp.ui.screens.TopNews
 import com.example.newsapp.ui.theme.NewsAppTheme
 
@@ -24,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    NewsApp()
+                    NavigationApp()
                 }
             }
         }
